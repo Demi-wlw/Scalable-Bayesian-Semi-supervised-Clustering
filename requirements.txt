@@ -1,0 +1,9 @@
+# BASIL runtime dependencies
+# Python >= 3.10 recommended
+numpy>=1.23
+scipy>=1.10
+scikit-learn>=1.2     # KMeans, datasets, train_test_split
+kmedoids>=0.5         # DIGITS K-medoids initialisation (Hamming)
+kmodes>=0.12          # MNIST  K-modes initialisation
+tqdm>=4.65            # progress bars during SVI
+matplotlib>=3.6       # trace and feature-importance plots
